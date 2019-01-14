@@ -1,0 +1,56 @@
+/*
+*Event Task
+* 1-11-2018
+*/
+
+body{
+  margin: 0;
+}
+#section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#section .heading{
+  text-transform: uppercase;
+  color: #2a6171;
+  font-family: monospace;
+  font-size: 1.4rem;
+}
+/* Box One */
+#section .div-one{
+  border: 1px solid #6e7da2;
+  background-color: #6e7da2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30rem;
+  width: 30rem;
+}
+/* Box Two */
+#section .div-one .div-two{
+  border: 1px solid #db996c;
+  background-color: #db996c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: 20rem;
+}
+/* Box Three */
+#section .div-one .div-two .div-three{
+  border: 1px solid #2a6171;
+  background-color: #2a6171;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 10rem;
+  color: #ffffff;
+}
+#section .div-one .div-two .div-three > h3{
+  font-family: monospace;
+  cursor: pointer;
+  /* text-transform: uppercase; */
+}
