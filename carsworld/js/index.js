@@ -15,7 +15,7 @@ class AddCar{
     let carList = document.getElementById("car-list");
     let tableRow = document.createElement("tr");
     tableRow.innerHTML = `<td>${car.name}</td><td>${car.make}</td><td>${car.price}</td><td>${car.model}</td><td>${car.year}</td><td>${car.description}</td>
-    <td><a href="#" class="delete">x</a></td>
+    <td><td><button class="delete btn btn-secondary">X</button></td>
     `;
     carList.append(tableRow);
 
@@ -34,9 +34,9 @@ class AddCar{
   }
 
   delCar(target){
-      if(target.className === "delete"){
+      if(target.className === "delete btn btn-secondary"){
         target.parentElement.parentElement.remove();
-      }
+        }
   }
 
   clearInputs(){

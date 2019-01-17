@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 3.5rem;
+}
+
+.car-form{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+th{
+  padding: 1rem 2rem;
+}
+td{
+  padding: .5rem 2rem;
+}
+.custom-container{
+  display: flex;
+  justify-content: center;
+}
+.custom-primary{
+  width: 11rem;
+  margin: 14px 0;
+}
+.delete{
+  height: 24px;
+  width: 24px;
+  border-radius: 14px;
+  line-height: 0px;
+  display: flex;
+  justify-content: center;
+}
+label{
+  margin-bottom: .2rem;
+  margin-top: .25rem;
+}

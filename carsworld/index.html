@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
   <title>Car World</title>
 </head>
@@ -16,96 +17,68 @@
       <form class="car-form" id="car-form">
         <div>
           <label for="name">Name</label><br>
-          <input type="text" name="name" class="name-input" id="name-input">
+          <input type="text" name="name" class="name-input" id="name-input" placeholder="Jeep 4WD">
         </div>
         <div>
           <label class="make" for="make">Make</label><br>
-          <input type="text" name="make" class="make-input" id="make-input">
+          <input type="text" name="make" class="make-input" id="make-input" placeholder="Jeep">
         </div>
         <div>
           <label class="price" for="price">Price</label><br>
-          <input type="text" name="price" class="price-input" id="price-input">
+          <input type="text" name="price" class="price-input" id="price-input" placeholder="700,0000">
         </div>
         <div>
           <label class="model" for="model">Model</label><br>
-          <input type="text" name="model" class="model-input" id="model-input">
+          <input type="text" name="model" class="model-input" id="model-input" placeholder="1994">
         </div>
         <div>
           <label class="year" for="year">Year</label><br>
-          <input  type="text" name="year" class="year-input" id="year-input">
+          <input  type="text" name="year" class="year-input" id="year-input" placeholder="2019">
         </div>
         <div>
           <label class="description" for="description">Description</label><br>
-          <input type="text" name="description" class="description-input" id="description-input">
+          <input type="text" name="description" class="description-input" id="description-input" placeholder="About Vehicle">
         </div>
         <div>
-          <button class="btn" value="submit" type="submit">Submit Here!</button>
+          <button class="btn btn-secondary custom-primary" value="submit" type="submit">Submit Here!</button>
         </div>
       </form>
     </div>
   </section>
 
   <section class="lists" id="lists">
-    <table>
-      <thead>
-        <tr>
-          <th>
-            Name
-          </th>
-          <th>
-            Make
-          </th>
-          <th>
-            Price
-          </th>
-          <th>
-            Model
-          </th>
-          <th>
-            Year
-          </th>
-          <th>
-            Description
-          </th>
-          <th>
-
-          </th>
-        </tr>
-      </thead>
-      <tbody class="car-list" id="car-list">
-
-      </tbody>
-    </table>
-    <!-- <div class="list-name">
-      <ul>
-
-      </ul>
+    <div class="container custom-container">
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Name
+            </th>
+            <th>
+              Make
+            </th>
+            <th>
+              Price
+            </th>
+            <th>
+              Model
+            </th>
+            <th>
+              Year
+            </th>
+            <th>
+              Description
+            </th>
+            <th>
+  
+            </th>
+          </tr>
+        </thead>
+        <tbody class="car-list" id="car-list">
+  
+        </tbody>
+      </table>
     </div>
-    <div class="list-make">
-      <ul>
-
-      </ul>
-    </div>
-    <div class="list-price">
-      <ul>
-
-      </ul>
-    </div>
-    <div class="list-model">
-      <ul>
-
-      </ul>
-    </div>
-    <div class="list-year">
-      <ul>
-
-      </ul>
-    </div>
-    <div class="list-description">
-      <ul>
-
-      </ul>
-    </div> -->
   </section>
 
   <script src="js/index.js"></script>
