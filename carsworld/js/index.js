@@ -82,7 +82,7 @@ document.getElementById("car-form").addEventListener("submit", function(e){
   
   let add = new AddCar();
   
-  if(name === ""){
+  if(name === "" || make === "" || price === "" || model === "" || year === "" || description === ""){
     alert("Please fill the form");
   }else{
     add.addCarData(car);
