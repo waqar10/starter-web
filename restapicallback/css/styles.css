@@ -1,0 +1,44 @@
+/*
+Custom Styles
+*/
+body{
+  font-family: monospace;
+  text-align: center;
+}
+h3{
+  font-size: 2rem;
+}
+.heading{
+  font-size: 2.5rem;
+}
+.rep-input{
+  width: 20rem;
+  height: 2rem;
+  background-color: #e0e0e0;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+.click-btn{
+  height: 2.25rem;
+  width: 7rem;
+  border-radius: 4px;
+  border: 1px solid grey;
+  background-color: #4c4a4a;
+  color: #ffffff;
+  font-size: .74rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition-delay: .2s;
+  transition-duration: .5s;
+}
+.click-btn:hover{
+  background-color: #ffffff;
+  color: #4c4a4a;
+}
+ul{
+  padding-left: 2rem;
+}
+.para-list{
+  display: flex;
+  font-size: 1.4rem;
+}
